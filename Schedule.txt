@@ -1,0 +1,31 @@
+Data Driven Astronomy Online Course Schedule (Draft)
+Week 1
+1.	Python Refresher
+a.	Numpy 
+b.	Pandas 
+c.	Matplotlib  
+d.	PyTorch Intro
+
+Week 2
+1.	FITS Handling 
+2.	Bin approximation
+3.	Rad@Home 
+c.	RAD Facebook Page
+4.	Data Analysis
+a.  21 cm Telescope
+b.  SDSS DR 14 Data Analysis
+
+Week 3
+1.	Introduction to Machine Learning
+2.	Decision Tree Regression
+3.	Photometric Redshift
+4.	Classification
+
+Week 4
+1.	Introduction to Deep Learning
+2.	Deep Learning using fast.ai
+3.	Data acquisition (SDSS Server and Kaggle datasets)
+4.	Star Galaxy Classifier using RESNET34
+5.	Morphology Classifier using RESNET34
+
+
