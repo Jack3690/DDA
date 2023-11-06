@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+# encoding: utf-8
+#
+# Licensed under a 3-clause BSD license.
+#
+#
+# map.py
+#
 # Created by Brett Andrews on 28 Apr 2017.
 #
 # Includes code from mangadap.plot.maps.py licensed under the following 3-clause
@@ -247,6 +255,7 @@ def _ax_setup(sky_coords, fig=None, ax=None, facecolor='#A8A8A8'):
     else:
         ax.set_facecolor(facecolor)
         ax.grid(False, which='major', axis='both')
+
     return fig, ax
 
 
@@ -503,7 +512,7 @@ def plot(*args, **kwargs):
 
         fig, cb = colorbar._draw_colorbar(fig, mappable=p, ax=ax, **cb_kws)
 
-        if title is not '':
+        if title != '':
             ax.set_title(label=title)
 
     # restore previous matplotlib rc parameters (as of matplotlib 2.0.2 this
